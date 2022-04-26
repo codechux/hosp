@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  gap: 20px;
+}
+
+nav .search-area {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #777;
+}
+
+nav .search-area input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #777;
+}
+
+nav .search-area input::placeholder {
+  color: #777;
+}
+
+nav > button:not(:last-child) {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+nav > button:last-child {
+  background-color: #6f4eff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 12px;
+}

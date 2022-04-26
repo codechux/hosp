@@ -1,0 +1,9 @@
+.patient-activity {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.patient-activity header {
+  padding-bottom: 30px;
+}
